@@ -238,6 +238,16 @@ textarea {
     input, textarea {
         border: 1px solid;
     }
+
+    #hangman {
+        height: 250px;
+        width: 250px;
+    }
+
+    #rpg {
+        height: 250px;
+        width: 350px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -364,5 +374,10 @@ textarea {
 
     footer {
         text-align: center;
+    }
+
+    #rpg {
+        height: 200px;
+        width: 280px;
     }
 }
