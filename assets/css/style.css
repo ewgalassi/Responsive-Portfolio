@@ -150,6 +150,8 @@ textarea {
 .placeholder {
     position: relative;
     margin: 30px;
+    height: 250px;
+    width: 350px;
 }
 
 #row2 {
