@@ -150,8 +150,23 @@ textarea {
 .placeholder {
     position: relative;
     margin: 30px;
-    height: 250px;
+    height: 300px;
     width: 350px;
+    float: left;
+}
+
+#hangman {
+    float: none;
+}
+
+#rpg {
+    float: none;
+    height: 250px;
+}
+
+.portfolio-label {
+    font-size: 28px;
+    margin: 0 auto;
 }
 
 #row2 {
