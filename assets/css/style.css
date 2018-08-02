@@ -164,6 +164,11 @@ textarea {
     height: 250px;
 }
 
+#trivia {
+    float: none;
+    height: 250px;
+}
+
 .portfolio-label {
     font-size: 28px;
     margin: 0 auto;
