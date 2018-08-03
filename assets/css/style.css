@@ -385,4 +385,8 @@ textarea {
         height: 200px;
         width: 280px;
     }
+
+    #trivia {
+        width: 350px;
+    }
 }
