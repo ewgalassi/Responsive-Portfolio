@@ -182,6 +182,11 @@ textarea {
     clear: both;
 }
 
+#gifs {
+    float: none;
+    height: 250px;
+}
+
 @media screen and (max-width: 980px) {
     h1 {
         position: static;
@@ -250,6 +255,16 @@ textarea {
     }
 
     #rpg {
+        height: 250px;
+        width: 350px;
+    }
+
+    #trivia {
+        height: 250px;
+        width: 350px;
+    }
+
+    #gifs {
         height: 250px;
         width: 350px;
     }
@@ -387,6 +402,10 @@ textarea {
     }
 
     #trivia {
+        width: 280px;
+    }
+
+    #gifs {
         width: 280px;
     }
 }
