@@ -187,6 +187,10 @@ textarea {
     height: 250px;
 }
 
+#rockPaper {
+    height: 250px;
+}
+
 @media screen and (max-width: 980px) {
     h1 {
         position: static;
@@ -265,6 +269,11 @@ textarea {
     }
 
     #gifs {
+        height: 250px;
+        width: 350px;
+    }
+
+    #rockPaper {
         height: 250px;
         width: 350px;
     }
@@ -406,6 +415,10 @@ textarea {
     }
 
     #gifs {
+        width: 280px;
+    }
+
+    #rockPaper {
         width: 280px;
     }
 }
