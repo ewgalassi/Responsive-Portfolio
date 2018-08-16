@@ -44,6 +44,36 @@ p {
     left: 175px;
 }
 
+#links {
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    color: #777777;
+    padding: 5px 0 0 0;
+    margin: 0 auto;
+    margin-bottom: 0;
+    line-height: 2rem;
+    position: relative;
+}
+
+.collapsible {
+    background-color: #ffffff;
+    color: #777777;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+  }
+
+.content {
+    padding: 0 18px 0 0;
+    display: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+
 nav {
     text-align: right;
     background-color: #ffffff;
@@ -53,7 +83,7 @@ nav {
     margin: 0 auto;
     margin-bottom: 20px;
     position: absolute;
-    right: 10%;
+    right: 20%;
     top: 20px;
 }
 
@@ -191,6 +221,10 @@ textarea {
     height: 250px;
 }
 
+#tender {
+    height: 250px;
+}
+
 @media screen and (max-width: 980px) {
     h1 {
         position: static;
@@ -277,6 +311,11 @@ textarea {
         height: 250px;
         width: 350px;
     }
+
+    #tender {
+        height: 250px;
+        width: 350px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -291,7 +330,9 @@ textarea {
 
     nav {
         margin: auto;
+        right: 10%;
         top: 5%;
+        padding-left: 0;
     }
 
     .main-area {
@@ -371,6 +412,14 @@ textarea {
         padding-left: 0;
     }
 
+    span {
+        padding: 3px;
+    }
+
+    .collapsible {
+        padding: 3px;
+    }
+
     .main-area {
         box-sizing: border-box;
         width: 100%;
@@ -405,6 +454,11 @@ textarea {
         text-align: center;
     }
 
+    #links {
+        margin-left: 5px;
+        width: 100%;
+    }
+
     #rpg {
         height: 200px;
         width: 280px;
@@ -421,4 +475,9 @@ textarea {
     #rockPaper {
         width: 280px;
     }
+
+    #tender {
+        width: 280px;
+    }
+
 }
