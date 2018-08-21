@@ -221,6 +221,11 @@ textarea {
     clear: both;
 }
 
+#row4 {
+    clear: both;
+    margin-bottom: 20px;
+}
+
 #gifs {
     float: none;
     height: 250px;
@@ -231,6 +236,10 @@ textarea {
 }
 
 #tender {
+    height: 250px;
+}
+
+#liri {
     height: 250px;
 }
 
@@ -326,6 +335,11 @@ textarea {
     }
 
     #tender {
+        height: 250px;
+        width: 350px;
+    }
+
+    #liri {
         height: 250px;
         width: 350px;
     }
@@ -493,4 +507,7 @@ textarea {
         width: 280px;
     }
 
+    #liri {
+        width: 280px;
+    }
 }
