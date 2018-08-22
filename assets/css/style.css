@@ -1,5 +1,6 @@
 body {
-    background-image: url("../images/concrete-texture.png")
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
 }
 
 h1 {
@@ -65,6 +66,14 @@ p {
     margin-right: 14px;
 }
 
+#myBtn {
+    cursor: pointer;
+}
+
+#pdf {
+    height: 80%;
+}
+
 .collapsible {
     background-color: #ffffff;
     color: #777777;
@@ -100,10 +109,11 @@ p {
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    margin: 2% auto; /* 2% from the top and centered */
+    padding: 10px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    height: 80%;
 }
 
 /* The Close Button */
@@ -298,6 +308,14 @@ textarea {
 
     #linkedin {
         margin-right: 20px;
+    }
+
+    .modal-content {
+        max-width: 80%;
+    }
+
+    embed {
+        max-width: 100%;
     }
 
     .main-area {
