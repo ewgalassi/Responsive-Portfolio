@@ -17,60 +17,43 @@
 
 <body>
     <div class="topBar">
-        <h1 id="name">Eric Galassi</h1>
         <nav>
             <div>
-                <span><a href="index.html">About</a></span>
-                <span>|</span>
-                <span><a href="portfolio.html">Portfolio</a></span>
-                <span>|</span>
-                <span>Contact</span>
-                <span>|</span>
-                <span class="collapsible">Links</span>
-                <div id="links" class="content">
-                    <a href="mailto:ewgalassi@gmail.com"><img class="logo" src="assets/images/logo_gmail_32px.png" style="height:21px">ewgalassi@gmail.com</a><br>
-                    <a href="https://github.com/ewgalassi" target="_blank"><img class="logo" src="assets/images/GitHub-Mark-32px.png"
-                            style="height:21px">GitHub page
-                    </a><br>
-                    <a href="https://www.linkedin.com/in/eric-galassi-6780638a" target="_blank"><img id="linkedin" class="logo"
-                            src="assets/images/In-2C-21px-R.png" style="height:21px">LinkedIn page</a><br>
-                    <!-- Trigger/Open The Modal -->
-                    <a id="myBtn" class="logo"><img id="resume" class="logo" src="assets/images/plumier-32-182044.png" style="height:21px">Resume</a>
-
-                    <!-- The Modal -->
-                    <div id="myModal" class="modal">
-
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <embed id="pdf" src="assets/images/resume.pdf" type="application/pdf" width="100%" />
-                        </div>
-
-                    </div>
-                </div>
+                <span class="menu menu-name" id="about"><a class="menu" href="index.html">About</a></span>
+                <span class="menu menu-name"><a class="menu" class="menu" href="portfolio.html">Portfolio</a></span>
+                <span class="menu menu-name">Contact</span>
             </div>
         </nav>
     </div>
     <br>
 
-
     <div class="main-area">
         <h1 class="page-title">Contact</h1>
-        <hr>
         <br>
+        <span class="collapsible menu menu-name">Links</span>
+        <div id="links" class="content">
+            <a class="menu collBtn" href="mailto:ewgalassi@gmail.com"><img class="logo" src="assets/images/logo_gmail_32px.png"
+                    style="height:21px">ewgalassi@gmail.com</a><br>
+            <a class="menu collBtn" href="https://github.com/ewgalassi" target="_blank"><img class="logo" src="assets/images/GitHub-Mark-32px.png"
+                    style="height:21px">GitHub page</a><br>
+            <a class="menu collBtn" href="https://www.linkedin.com/in/eric-galassi-6780638a" target="_blank"><img id="linkedin"
+                    class="logo" src="assets/images/In-2C-21px-R.png" style="height:21px">LinkedIn page</a><br>
 
-        <form>
-            <label>Name</label><br>
-            <input type="text" placeholder="John Smith"></input><br>
+            <!-- Trigger/Open The Modal -->
+            <a id="myBtn" class="logo menu collBtn"><img id="resume" class="logo" src="assets/images/plumier-32-182044.png"
+                    style="height:21px">Resume</a>
 
-            <label>Email</label><br>
-            <input type="text" placeholder="example@gmail.com"></input><br>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
 
-            <label>Message</label><br>
-            <textarea></textarea><br>
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <embed id="pdf" src="assets/images/resume.pdf" type="application/pdf" width="100%" />
+                </div>
 
-            <input id="submit-button" type="submit" value="Submit">
-        </form>
+            </div>
+        </div>
     </div>
     <a style="opacity:0.5;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', Helvetica, Ubuntu, Roboto, Noto, 'Segoe UI', Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
         href="https://unsplash.com/@sickhews?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
@@ -88,6 +71,7 @@
     <script type="text/javascript" src="assets/script.js"></script>
 </body>
 <footer>
+    <h1 id="name">Eric Galassi</h1>
     <div>2018</div>
 </footer>
 

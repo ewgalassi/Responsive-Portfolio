@@ -81,6 +81,7 @@ p {
     max-width: 28px;
     margin-top: 7px;
     float: none;
+    filter: drop-shadow(4px 4px 5px rgb(122, 122, 122));
 }
 
 #linkedin {
@@ -222,7 +223,7 @@ footer {
     margin: 0 auto;
     float: none;
     position: absolute;
-    right: 43%;
+    right: 42%;
     bottom: 3%;
     z-index: 4;
 }
