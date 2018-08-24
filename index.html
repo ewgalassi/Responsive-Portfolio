@@ -19,18 +19,22 @@
     <div class="topBar">
         <nav>
             <div>
-                <span class="menu">About</span>
-                <span class="menu"><a class="menu" href="portfolio.html">Portfolio</a></span>
-                <span class="menu"><a class="menu" href="contact.html">Contact</a></span>
-                <span class="collapsible menu">Links</span>
+                <span class="menu menu-name" id="about">About</span>
+                <span class="menu menu-name"><a class="menu" href="portfolio.html">Portfolio</a></span>
+                <span class="menu menu-name"><a class="menu" href="contact.html">Contact</a></span>
+                <span class="collapsible menu menu-name">Links</span>
 
                 <div id="links" class="content">
-                    <a class="menu" href="mailto:ewgalassi@gmail.com"><img class="logo" src="assets/images/logo_gmail_32px.png" style="height:21px">ewgalassi@gmail.com</a><br>
-                    <a class="menu" href="https://github.com/ewgalassi" target="_blank"><img class="logo" src="assets/images/GitHub-Mark-32px.png" style="height:21px">GitHub page</a><br>
-                    <a class="menu" href="https://www.linkedin.com/in/eric-galassi-6780638a" target="_blank"><img id="linkedin" class="logo" src="assets/images/In-2C-21px-R.png" style="height:21px">LinkedIn page</a><br>
+                    <a class="menu collBtn" href="mailto:ewgalassi@gmail.com"><img class="logo" src="assets/images/logo_gmail_32px.png"
+                            style="height:21px">ewgalassi@gmail.com</a><br>
+                    <a class="menu collBtn" href="https://github.com/ewgalassi" target="_blank"><img class="logo" src="assets/images/GitHub-Mark-32px.png"
+                            style="height:21px">GitHub page</a><br>
+                    <a class="menu collBtn" href="https://www.linkedin.com/in/eric-galassi-6780638a" target="_blank"><img id="linkedin"
+                            class="logo" src="assets/images/In-2C-21px-R.png" style="height:21px">LinkedIn page</a><br>
 
                     <!-- Trigger/Open The Modal -->
-                    <a id="myBtn" class="logo menu"><img id="resume" class="logo" src="assets/images/plumier-32-182044.png" style="height:21px">Resume</a>
+                    <a id="myBtn" class="logo menu collBtn"><img id="resume" class="logo" src="assets/images/plumier-32-182044.png"
+                            style="height:21px">Resume</a>
 
                     <!-- The Modal -->
                     <div id="myModal" class="modal">
@@ -47,11 +51,9 @@
         </nav>
     </div>
     <br>
-    <h1 id="name">Eric Galassi</h1>
 
     <div class="main-area">
         <h1 class="page-title">About Me</h1>
-        <hr>
         <br>
         <div>
             <img src="assets/images/P5.jpg" height="150px" width="120px" alt="Photo of myself" />
@@ -66,7 +68,7 @@
                 but most of my time is enjoyed with my family.</p>
         </div>
     </div>
-    <a style="opacity:0.5;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', Helvetica, Ubuntu, Roboto, Noto, 'Segoe UI', Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+    <a style="opacity:0.5;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', Helvetica, Ubuntu, Roboto, Noto, 'Segoe UI', Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;position:absolute;bottom:10%;left:5%;"
         href="https://unsplash.com/@sickhews?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
         target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Wes Hicks">
         <span style="display:inline-block;padding:2px 3px">
@@ -82,7 +84,8 @@
     <script type="text/javascript" src="assets/script.js"></script>
 </body>
 <footer>
-    <div>2018</div>
+    <h1 id="name">Eric Galassi</h1>
+    <div id="footer-date">2018</div>
 </footer>
 
 </html>
