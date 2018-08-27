@@ -36,25 +36,48 @@ p {
     position: absolute;
     top: 0%;
     left: 0%;
+    margin-bottom: 20px;
+}
+
+#name {
+    width: 50%;
+    color: white;
+    font-size: 42px;
+    margin: 0 auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 5;
+}
+
+nav {
+    text-align: center;
+    font-size: 24px;
+    color: #777777;
+    margin: 0 auto;
+    width: 45%;
+    float: right;
 }
 
 .menu {
     text-align: center;
     color: white;
     background-color: transparent;
-    margin-right: 30px;
     z-index: 6;
+    position: relative;
+    right: 5%;
 }
 
 .menu-name {
+    text-align: center;
     filter: drop-shadow(4px 4px 5px rgb(122, 122, 122));
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
 
 .menu-name:hover {
-    font-size: 30px;
-    padding: 40px;
+    font-size: 50px;
+    margin: 40px;
 }
 
 #about {
@@ -156,18 +179,6 @@ p {
     cursor: pointer;
 }
 
-nav {
-    width: 100%;
-    text-align: center;
-    font-size: 24px;
-    color: #777777;
-    padding: 20px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    position: absolute;
-    top: 10px;
-}
-
 span {
     padding: 10px;
 }
@@ -201,31 +212,18 @@ hr {
 }
 
 footer {
-    background-color: #e0850f88;
     color: white;
     text-align: right;
     padding: 15px;
     padding-left: 0px;
     padding-right: 0px;
     margin: 0 auto;
-    border-top: 3px solid #dfad221e;
     float: left;
     width: 100%;
     box-sizing: border-box;
     position: fixed;
     bottom: 0%;
     right: 0%;
-}
-
-#name {
-    color: white;
-    font-size: 42px;
-    margin: 0 auto;
-    float: none;
-    position: absolute;
-    right: 42%;
-    bottom: 3%;
-    z-index: 4;
 }
 
 #footer-date {
@@ -337,10 +335,19 @@ textarea {
 
 #tender {
     height: 250px;
+    width: 350px;
 }
 
 #liri {
+    float: none;
     height: 250px;
+    width: 350px;
+}
+
+#bamazon {
+    float: none;
+    height: 250px;
+    width: 350px;
 }
 
 @media screen and (max-width: 980px) {
@@ -448,6 +455,11 @@ textarea {
     }
 
     #liri {
+        height: 250px;
+        width: 350px;
+    }
+
+    #bamazon {
         height: 250px;
         width: 350px;
     }
@@ -616,6 +628,10 @@ textarea {
     }
 
     #liri {
+        width: 280px;
+    }
+
+    #bamazon {
         width: 280px;
     }
 }
