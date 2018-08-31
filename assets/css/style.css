@@ -345,6 +345,12 @@ textarea {
     width: 350px;
 }
 
+#friends {
+    float: none;
+    height: 250px;
+    width: 350px;
+}
+
 @media screen and (max-width: 980px) {
     h1 {
         position: static;
@@ -455,6 +461,11 @@ textarea {
     }
 
     #bamazon {
+        height: 250px;
+        width: 350px;
+    }
+
+    #friends {
         height: 250px;
         width: 350px;
     }
@@ -627,6 +638,10 @@ textarea {
     }
 
     #bamazon {
+        width: 280px;
+    }
+
+    #friends {
         width: 280px;
     }
 }
