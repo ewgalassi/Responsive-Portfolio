@@ -246,7 +246,7 @@ footer {
     color: white;
     clear: both;
     filter: drop-shadow(8px 8px 10px rgb(0, 0, 66));
-    border-radius: 15px;
+    border-radius: 10px;
     z-index: 3;
 }
 
