@@ -329,6 +329,11 @@ textarea {
     margin-bottom: 20px;
 }
 
+#row5 {
+    clear: both;
+    margin-bottom: 20px;
+}
+
 #gifs {
     float: none;
     height: 250px;
@@ -362,6 +367,12 @@ textarea {
 }
 
 #burger {
+    float: none;
+    height: 250px;
+    width: 350px;
+}
+
+#stock {
     float: none;
     height: 250px;
     width: 350px;
@@ -487,6 +498,11 @@ textarea {
     }
 
     #burger {
+        height: 250px;
+        width: 350px;
+    }
+
+    #stock {
         height: 250px;
         width: 350px;
     }
@@ -667,6 +683,10 @@ textarea {
     }
 
     #burger {
+        width: 280px;
+    }
+
+    #stock {
         width: 280px;
     }
 }
