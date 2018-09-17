@@ -383,6 +383,10 @@ textarea {
         position: static;
     }
 
+    body:not(.topBar .main-area) {
+        filter: none);
+    }
+
     #name {
         margin: auto;
         left: 5%;
