@@ -384,7 +384,7 @@ textarea {
     }
 
     body:not(.topBar .main-area) {
-        filter: none);
+        filter: none;
     }
 
     #name {
