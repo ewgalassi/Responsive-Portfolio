@@ -378,11 +378,17 @@ textarea {
     width: 350px;
 }
 
+#newscraper {
+    float: none;
+    height: 250px;
+    width: 350px;
+}
+
 @media screen and (max-width: 980px) {
     h1 {
         position: static;
     }
-    
+
     #name {
         margin: auto;
         left: 5%;
@@ -503,6 +509,11 @@ textarea {
     }
 
     #stock {
+        height: 250px;
+        width: 350px;
+    }
+
+    #newscraper {
         height: 250px;
         width: 350px;
     }
@@ -704,6 +715,10 @@ textarea {
     }
 
     #stock {
+        width: 280px;
+    }
+
+    #newscraper {
         width: 280px;
     }
 }
