@@ -2,6 +2,8 @@
 
 https://ewgalassi.github.io/Responsive-Portfolio/
 
+#### This page is currently being transitioned out as my active portfolio.  Think of it as the Internet Explorer version of the portfolio.
+
 This is my mobile-responsive personal portfolio.  It uses HTML, CSS, and JavaScript.  It contains a collection of my other projects.
 
 ### How to use it
