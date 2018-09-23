@@ -334,6 +334,11 @@ textarea {
     margin-bottom: 20px;
 }
 
+#row6 {
+    clear: both;
+    margin-bottom: 20px;
+}
+
 #gifs {
     float: none;
     height: 250px;
@@ -379,6 +384,12 @@ textarea {
 }
 
 #newscraper {
+    float: none;
+    height: 250px;
+    width: 350px;
+}
+
+#fruits {
     float: none;
     height: 250px;
     width: 350px;
@@ -514,6 +525,11 @@ textarea {
     }
 
     #newscraper {
+        height: 250px;
+        width: 350px;
+    }
+
+    #fruits {
         height: 250px;
         width: 350px;
     }
@@ -719,6 +735,10 @@ textarea {
     }
 
     #newscraper {
+        width: 280px;
+    }
+
+    #fruits {
         width: 280px;
     }
 }
